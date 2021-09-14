@@ -22,7 +22,7 @@ h1 {
     display: inline;
 }
 
-/* MAIN */
+/* MAIN SETTINGS*/
 .background {
     background-color: rgba(211, 211, 211, 0.972);
     width: auto;
@@ -34,18 +34,45 @@ h1 {
     height: 50%;
     background-color: white;
     margin: 2% 20%;
+    border-radius: 10px;
 }
+
+.options {
+    border-radius: 6px;
+}
+
 
 /* BUTTONS */
-#task {
+.task {
     background-color: royalblue;
-    padding: 4px 7px;
+    padding: 4px 10px;
     font-weight: bold;
+    font-size: smaller;
     color: white;
-    
+    border-style: solid;
+    border-color: royalblue;
 }
 
-h2{
+.add-button {
+    background-color: white;
+    padding: 4px 7px;
+    font-weight: bold;
+    color: lightgrey;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+
+
+/* NEW, TODAY, UPCOMING */
+
+ul {
+    list-style-type: none;
+}
+
+
+
+h2 {
     display: inline;
 }
 
@@ -61,17 +88,44 @@ h2{
     background-color: white;
     border-color: green;
     padding: 1px 3px;
+    margin-right: 5px;
     font-size: 8px;
 }
 
-.span1 {
-    border: solid green;
-    border-radius: 50px; 
+.tags {
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: xx-small;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
 
+.editorial {
+    background-color: royalblue;
+    border-color: royalblue;
+}
+
+.Q1-Goals {
+    background-color: hsl(262deg 68% 67%);
+    border-color: hsl(262deg 68% 67%);
+}
+
+.Recruiting {
+    background-color: hsl(165deg 42% 57%);
+    border-color: hsl(165deg 42% 57%);
+}
+.Mobile {
+    background-color: hsl(34deg 88% 57%);
+    border-color: hsl(34deg 88% 57%);
+}
+.website {
+    background-color: hsl(328deg 60% 62%);
+    border-color: hsl(328deg 60% 62%);
+}
+.Sales {
+    background-color: hsl(69deg 68% 47%);
+    border-color: hsl(69deg 68% 47%);
 }
 
 
-ul {
-    list-style-type: none;
-    
-}
