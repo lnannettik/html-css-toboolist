@@ -26,15 +26,15 @@ h1 {
 .background {
     background-color: rgba(211, 211, 211, 0.972);
     width: auto;
-    height: 1000px;
+    height: 100%;
+    padding: 20px;
 }
 
 .contenitore {
-    width: 50%;
-    height: 50%;
     background-color: white;
     margin: 2% 20%;
     border-radius: 10px;
+    padding: 30px;
 }
 
 .options {
@@ -62,6 +62,9 @@ h1 {
     border-color: lightgrey;
 }
 
+hr {
+    border: 1px solid lightgrey;
+}
 
 
 /* NEW, TODAY, UPCOMING */
@@ -70,14 +73,24 @@ ul {
     list-style-type: none;
 }
 
-
-
 h2 {
     display: inline;
 }
 
+.top-button-session {
+    padding: 10px;
+}
+
+.top {
+    padding-top: 20px;
+}
+
 .list-section {
     margin-bottom: 20px;
+}
+
+li {
+    padding: 10px;
 }
 
 .check {
@@ -87,7 +100,19 @@ h2 {
     color: green;
     background-color: white;
     border-color: green;
-    padding: 1px 3px;
+    padding: 2px 3px;
+    margin-right: 5px;
+    font-size: 8px;
+}
+
+.delete {
+    border: solid;
+    border-width: thin;
+    border-radius: 50px;
+    color: red;
+    background-color: white;
+    border-color: red;
+    padding: 2px 3px;
     margin-right: 5px;
     font-size: 8px;
 }
