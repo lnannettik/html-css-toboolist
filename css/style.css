@@ -7,7 +7,31 @@
 }
 
 
+/* lOGO + TITOLO */
+header {
+    vertical-align: middle;
+    line-height: 60px;
+    padding: 10px 10px 10px 30px;
+}
 
-body {
-    color: red;
+#logo {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;
+}
+
+/* MAIN */
+.background {
+    background-color: rgba(211, 211, 211, 0.972);
+    width: auto;
+    height: 1000px;
+}
+
+.contenitore {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    margin: 2% 20%;
 }
