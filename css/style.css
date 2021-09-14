@@ -24,7 +24,7 @@ h1 {
 
 /* MAIN SETTINGS*/
 .background {
-    background-color: rgba(211, 211, 211, 0.972);
+    background-color: #f6f8f9;
     width: auto;
     height: 100%;
     padding: 20px;
@@ -32,8 +32,9 @@ h1 {
 
 .contenitore {
     background-color: white;
-    margin: 2% 20%;
-    border-radius: 10px;
+    margin: 0% 25%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 30px;
 }
 
@@ -78,11 +79,12 @@ h2 {
 }
 
 .top-button-session {
-    padding: 10px;
-}
-
-.top {
-    padding-top: 20px;
+    background-color: white;
+    margin: 0% 25% 0% 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px;
+    border-bottom: solid #f6f8f9;
 }
 
 .list-section {
@@ -152,5 +154,3 @@ li {
     background-color: hsl(69deg 68% 47%);
     border-color: hsl(69deg 68% 47%);
 }
-
-
