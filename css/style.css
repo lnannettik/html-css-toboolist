@@ -36,6 +36,15 @@ h1 {
     margin: 2% 20%;
 }
 
+/* BUTTONS */
+#task {
+    background-color: royalblue;
+    padding: 4px 7px;
+    font-weight: bold;
+    color: white;
+    
+}
+
 h2{
     display: inline;
 }
@@ -45,9 +54,24 @@ h2{
 }
 
 .check {
-    border: 10px;
+    border: solid;
+    border-width: thin;
     border-radius: 50px;
     color: green;
-    
+    background-color: white;
+    border-color: green;
+    padding: 1px 3px;
+    font-size: 8px;
+}
+
+.span1 {
+    border: solid green;
+    border-radius: 50px; 
+
+}
+
+
+ul {
+    list-style-type: none;
     
 }
