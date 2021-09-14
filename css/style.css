@@ -35,3 +35,19 @@ h1 {
     background-color: white;
     margin: 2% 20%;
 }
+
+h2{
+    display: inline;
+}
+
+.list-section {
+    margin-bottom: 20px;
+}
+
+.check {
+    border: 10px;
+    border-radius: 50px;
+    color: green;
+    
+    
+}
